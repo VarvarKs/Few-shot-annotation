@@ -7,3 +7,26 @@
 <h3>Переменные окружения</h3>
     
 Для работы программы нужен `ChatGPT API KEY`. Чтобы определить переменную среды для использования в одном рабочем процессе, можно использовать `env` ключ в файле рабочего процесса.
+
+<h3>Результаты</h3>
+Методом few-shot получилось сделать разметку фрагмента датасета из отдельных слов (без контекста). 
+Выделяемые группы:
+
+	NEW - neologisms
+	ORG - organisations, companies, apps
+	SLN - slang
+	NORM - normal (dictionary) words
+	ERR - misspelled words
+	PER - people, surnames
+	GEO - geopolitical entities`
+
+Пример результата:
+
+	апасов	PER
+	тайот	ORG
+	халкиопов	PER
+	патреон	ORG
+	роберта	PER
+	жестила	SLN
+	балко	PER
+	интеренета	ERR
